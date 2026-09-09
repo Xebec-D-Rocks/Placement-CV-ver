@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
+data/raw/
+media/
+staticfiles/
+logs/
+.env
+*.log
+.mypy_cache/
+.pytest_cache/
+celerybeat-schedule
+celerybeat.pid

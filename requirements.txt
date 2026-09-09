@@ -1,0 +1,30 @@
+Django==5.1.4
+psycopg2-binary==2.9.10
+gunicorn==23.0.0
+whitenoise==6.8.2
+pandas==2.2.3
+numpy==2.1.3
+kagglehub==0.3.6
+tabulate==0.9.0
+
+# API & Auth
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+django-filter==24.3
+drf-spectacular==0.28.0
+
+# Async & Caching
+celery==5.4.0
+redis==5.1.1
+django-redis==5.4.0
+
+# OCR / Documents / Reports
+Pillow==11.1.0
+pytesseract==0.3.13
+reportlab==4.2.0
+openpyxl==3.1.5
+
+# Env & Utils
+django-environ==0.11.2
+python-dateutil==2.9.0

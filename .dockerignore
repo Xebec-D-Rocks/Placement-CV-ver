@@ -1,0 +1,40 @@
+# Secrets & local state - never copy into the image
+.env
+.env.*
+!.env.example
+db.sqlite3
+nul
+*.db
+
+# VCS / IDE
+.git
+.gitignore
+.idea
+.vscode
+*.swp
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Generated / runtime data (bind-mounted separately per docker-compose.yml)
+data/
+media/
+staticfiles/
+logs/
+celerybeat-schedule
+celerybeat.pid
+docs/schema.md
+docs/model_report.md
+
+# Test/coverage caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS junk
+Thumbs.db
+.DS_Store
